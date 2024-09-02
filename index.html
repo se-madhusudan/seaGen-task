@@ -6,6 +6,7 @@
     <title>Sea Gen</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-query.css">
 </head>
 <body>
     <header>
@@ -15,15 +16,26 @@
         </div>
         <div class="navHeader">
             <div class="logo">
-                <img src="images/tukysa-logo.png" alt="tukysa tucatinib logo">
+                <a href="."><img src="images/tukysa-logo.png" alt="tukysa tucatinib logo"></a>
             </div>
             <div class="menuIcon">
                 <img src="images/menu-button.png" alt="menu-button icon">
             </div>
         </div>
         <nav>
-
+            <ul>
+                <li><span><img src="images/bookmark.png" alt="icon"></span><a href="javascript:void(0)">OVERVIEW</a></li>
+                <hr>
+                <li><span><img src="images/bar-chart.png" alt="icon"></span><a href="javascript:void(0)">CLINICAL INFORMATION</a></li>
+                <hr>
+                <li><span><img src="images/reference.png" alt="icon"></span><a href="javascript:void(0)">REFERENCES</a></li>
+            </ul>
+            <div class="prescribingLink">
+                <span><img src="images/pdf-icon.png" alt="icon"></span><a href="javascript:void(0)">Prescribing Information</a>
+            </div>
         </nav>
     </header>
+
+    <script src="scripts/index.js"></script>
 </body>
 </html>

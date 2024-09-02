@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,11 @@
 
 body {
     min-width: 400px;
-    
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    position: relative;
 }
 
 .topHeader {
@@ -34,4 +40,96 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.menuIcon img:hover {
+    cursor: pointer;
+}
+
+nav {
+    position: absolute;
+    width: 100%;
+    height: 256px;
+    background-color: rgba(0, 73, 118, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+nav ul {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    height: 28px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 14px;
+    align-items: center;
+    margin: 20px 0;
+}
+
+nav ul li:first-of-type {
+    margin-top: 0;
+}
+
+nav ul li:last-of-type {
+    margin-bottom: 0;
+}
+
+nav ul hr{
+    width: 90%;
+    height: 1px;
+    background-color: rgba(0, 166, 172, 1);
+    border: none;
+}
+
+nav ul li span, nav ul li a {
+    height: 100%;
+}
+
+nav ul li span img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav ul li a {
+    font-size: 16px;
+    line-height: 19.36px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    align-content: center;
+}
+
+.prescribingLink {
+    height: 52px;
+    width: 100%;
+    display: flex;
+    background-color:rgba(0, 166, 172, 1);
+    align-items: center;
+    justify-content: center;
+    column-gap: 14px;
+    padding: 15px 0;
+}
+
+.prescribingLink span{
+    height: 100%;
+}
+
+.prescribingLink span img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prescribingLink a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color:rgba(255, 255, 255, 1);
 }

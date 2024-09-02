@@ -1,0 +1,14 @@
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: bisque;
+    }
+
+    .menuIcon {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+}
