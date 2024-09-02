@@ -2,7 +2,7 @@
     -------------------------- Mobile Menu ----------------------
 */
 const menuIcon = document.querySelector('.menuIcon img');
-const nav = document.querySelector('nav');
+const nav = document.querySelector('.mobileNav');
 
 nav.style.display = 'none'; //initially setting the display
 

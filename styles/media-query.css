@@ -3,12 +3,53 @@
         background-color: bisque;
     }
 
+    .navHeader {
+        height: 80px;
+        justify-content: space-between;
+        column-gap: 40px;
+    }
+
     .menuIcon {
         display: none;
     }
 
-    nav ul {
+    .mobileNav {
+        display: none;
+    }
+
+    .laptopNav {
+        display: flex;
+        width: 80%;
+    }
+
+    .laptopNav ul {
         display: flex;
         flex-direction: row;
+        list-style: none;
+        align-items: center;
+        column-gap: 75px;
     }
+
+    .laptopNav ul li {
+        display: flex;
+        height: 32px;
+        column-gap: 16px;
+    }
+
+    .laptopNav ul li span img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .laptopNav ul li a {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.78px;
+        text-align: center;
+        color:rgba(255, 255, 255, 1);
+        text-decoration: none;
+        align-content: center;
+    }
+
 }
