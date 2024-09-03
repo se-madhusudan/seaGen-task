@@ -1,7 +1,7 @@
 @media screen and (min-width: 1024px) {
     .topHeader {
         height: 50px;
-        padding: 16px 10px;
+        padding: 16px 5px;
     }
 
     .navHeader {
@@ -50,5 +50,12 @@
         text-decoration: none;
         align-content: center;
     }
+
+    .laptopNav ul li:hover,
+    .laptopNav ul li:active {
+        filter: brightness(0) saturate(100%) invert(93%) sepia(75%) saturate(2474%) hue-rotate(152deg) brightness(84%) contrast(86%);
+    }
+
+    
 
 }
