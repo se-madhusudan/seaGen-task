@@ -9,10 +9,11 @@
 body {
     min-width: 400px;
     font-family: "Inter", sans-serif;
+    position: relative;
 }
 
 header {
-    position: relative;
+    /* position: relative; */
 }
 
 .topHeader {
@@ -140,5 +141,9 @@ header {
 }
 
 .laptopNavHeader {
+    display: none;
+}
+
+.prescribingInfo {
     display: none;
 }

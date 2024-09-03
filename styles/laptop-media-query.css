@@ -1,6 +1,7 @@
 @media screen and (min-width: 1024px) {
-    body {
-        background-color: bisque;
+    .topHeader {
+        height: 50px;
+        padding: 16px 10px;
     }
 
     .navHeader {

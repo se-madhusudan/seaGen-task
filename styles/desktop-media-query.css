@@ -1,0 +1,45 @@
+@media screen and (min-width: 1440px) {
+    .laptopNavHeader {
+        width: 73%;
+    }
+
+    .prescribingInfo {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 50px;
+        width: 27%;
+        height: 4000px;
+        background-color: brown;
+    }
+
+    .prescribingInfo .heading {
+        height: 80px;
+        background: rgba(0, 166, 172, 1);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 20px;
+        padding: 16px 0;
+    }
+
+    .prescribingInfo .heading span:first-of-type {
+        height: 34px;
+        width: 30px;
+    }
+
+    .prescribingInfo .heading span img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .prescribingInfo .heading span:last-of-type {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24.2px;
+        text-align: center;
+        color: rgba(255, 255, 255, 1);
+    }
+
+}
