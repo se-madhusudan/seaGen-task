@@ -138,3 +138,7 @@ header {
     line-height: 19.36px;
     color:rgba(255, 255, 255, 1);
 }
+
+.laptopNavHeader {
+    display: none;
+}

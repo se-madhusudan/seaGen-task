@@ -4,22 +4,20 @@
     }
 
     .navHeader {
-        height: 80px;
-        justify-content: space-between;
+        display: none;
+    }
+
+    .laptopNavHeader {
+        height: 80px;  
+        background-color: #004976;
+        display: flex;
         column-gap: 40px;
-    }
-
-    .menuIcon {
-        display: none;
-    }
-
-    .mobileNav {
-        display: none;
     }
 
     .laptopNav {
         display: flex;
-        width: 80%;
+        /* width: 80%; */
+        justify-content: space-around;
     }
 
     .laptopNav ul {
