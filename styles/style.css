@@ -54,6 +54,7 @@ header {
 
 .mobileNav {
     position: absolute;
+    z-index: 99;
     width: 100%;
     height: 256px;
     background-color: rgba(0, 73, 118, 1);
@@ -151,4 +152,71 @@ header {
 
 .prescribingInfo {
     display: none;
+}
+
+/* --------------------------------- Banner Section ---------------------------------------- */
+.bannerSection {
+    background: rgba(0, 12, 66, 1);
+    height: 1068px;
+    position: relative;
+}
+
+.bannerSection .heroImage {
+    width: 100%;
+    height: 345px;
+    object-fit: cover;
+    /* border: 2px solid white; */
+}
+
+.bannerSection h3 {
+    position: absolute;
+    top: 300px;
+    left: 16px;
+    color: rgba(237, 83, 56, 1);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.2px;
+    text-align: left;
+}
+
+.bannerSection h2 {
+    margin: 0 16px 30px 16px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 42.5px;
+    text-align: left;
+}
+
+.bannerSection h2 span {
+    color: rgba(237, 83, 56, 1);
+}
+
+.nccn {
+    width: 368px;
+    height: 179px;
+    margin: 14px 16px 20px 16px;
+    /* border: 1px solid white; */
+    position: relative;
+}
+
+.nccn img {
+    width: 143px;
+    height: 100%;
+}
+
+.nccn p {
+    position: absolute;
+    bottom: 0;
+    left: 32px;
+    color:rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.3px;
+    text-align: left;
+}
+
+.nccn p span{
+    vertical-align: 0.7em;
+    font-size: 0.5em;
 }
