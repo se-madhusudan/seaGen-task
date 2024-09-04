@@ -43,10 +43,11 @@
     }
 
     .prescribingInfo .info {
-        /* height: 3785px; */
+        height: calc(100vh - 130px);
         padding: 30px 26px;
         overflow-y: scroll;
         border-left: 1px solid rgba(230, 230, 230, 1);
+        position: relative;
     }
 
     .prescribingInfo .info h2 {
@@ -78,4 +79,83 @@
         color: rgba(0, 73, 118, 1);
     }
 
+    ul.warningPrecaution, ul.drug, ul.specific {
+        padding-left: 20px;
+        list-style-type: none;
+    }
+
+    .warningPrecaution li, .drug li, .specific li {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25.2px;
+        text-align: left;
+        margin: 10px 0;
+        color: rgb(18, 18, 18);
+    }
+
+    .warningPrecaution li::before, .drug li::before, .specific li::before {
+        content: '•';
+        color: rgba(0, 166, 172, 1);
+        position: absolute;
+        left: 25px;
+        font-size: 18px;
+        line-height: 25.2px;
+    }
+
+    .warningPrecaution li span, .drug li span, .specific li span {
+        font-weight: 700; 
+    }
+
+    .prescribingInfo .info h4 {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25.2px;
+        text-align: left;
+        color: rgba(0, 73, 118, 1);
+        margin-top: 20px;
+    }
+
+    p.adverse, p.lab {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 25.2px;
+        text-align: left;
+        color: rgb(18, 18, 18);
+        margin: 10px 0;
+
+    }
+
+    .info p:last-of-type {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24.3px;
+        text-align: left;
+        color: rgba(22, 22, 22, 1);
+        margin-top: 10px;
+    }
+
+    .info p:last-of-type a {
+        color:rgba(0, 73, 118, 1);
+    }
+
+    /* -------------------- scrollbar styling ------------------  */
+    .info::-webkit-scrollbar {
+        width: 12px;
+        height: 125px;
+    }
+
+    .info::-webkit-scrollbar-track {
+        background: rgba(238, 238, 238, 1);
+        padding: 2px;
+
+    }
+
+    .info::-webkit-scrollbar-thumb {
+        background: rgb(0, 79, 136);
+        border-radius: 25px;
+    }
+
+    .info::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 62, 106, 1);
+    }
 }
