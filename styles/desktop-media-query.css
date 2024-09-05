@@ -1,11 +1,26 @@
 @media screen and (min-width: 1440px) {
+    .topHeader {
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 999;
+        background: rgba(255, 255, 255, 1);
+    }
     .laptopNavHeader {
         width: 73%;
+        position: fixed;
+        top: 50px;
+        z-index: 999;
+    }
+
+    /* to stop the other elements below header and nav to shift up (because of fixed position) */
+    body {
+        padding-top: 130px;  
     }
 
     .prescribingInfo {
         display: block;
-        position: absolute;
+        position: fixed;
         right: 0;
         top: 50px;
         width: 27%;
@@ -157,5 +172,49 @@
 
     .info::-webkit-scrollbar-thumb:hover {
         background: rgba(0, 62, 106, 1);
+    }
+
+    /* ----------------- main ------------------ */
+    main {
+        width: 73%;
+    }
+    /* ------------------- banner ------------- */
+    .bannerSection {
+        height: 652px;
+    }
+
+    .bannerSection .heroImage {
+        height: 100%;
+    }
+
+    .bannerSection h3 {
+        top: 36px;
+        left: 16px;
+        font-size: 25px;
+        line-height: 33.75px;
+    }
+    
+    .bannerSection h2 {
+        position: absolute;
+        top: 80px;
+        left: 16px;
+        font-size: 38px;
+        line-height: 45.6px;
+        width: 666px;
+    }
+
+    .nccn {
+        width: 533px;
+        height: 170px;
+        margin: 14px 0px 20px 0px;
+        /* border: 1px solid white; */
+        position: absolute;
+        top: 200px;
+        left: 16px;
+    }
+
+    .nccn p {
+        font-size: 20px;
+        line-height: 27px;
     }
 }

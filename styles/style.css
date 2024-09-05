@@ -216,7 +216,23 @@ header {
     text-align: left;
 }
 
-.nccn p span{
+.nccn p span, .bannerSection .text p span{
     vertical-align: 0.7em;
     font-size: 0.5em;
+}
+
+.bannerSection .text {
+    width: 368px;
+    height: 348px;
+    /* border: 1px solid white; */
+    margin: 20px 21px 14px 21px;
+}
+
+.bannerSection .text p {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+
 }

@@ -1,0 +1,50 @@
+@media screen and (min-width: 768px) {
+    .bannerSection {
+        height: 658px;
+    }
+
+    .bannerSection .heroImage {
+        height: 100%;
+    }
+
+    .bannerSection h3 {
+        top: 41px;
+        left: 41px;
+        font-size: 25px;
+        line-height: 33.75px;
+    }
+    
+    .bannerSection h2 {
+        position: absolute;
+        top: 85px;
+        left: 41px;
+        font-size: 38px;
+        line-height: 45.6px;
+        width: 441px;
+        margin: 0;
+    }
+
+    .nccn {
+        width: 336px;
+        height: 175px;
+        margin: 14px 0px 20px 0px;
+        /* border: 1px solid white; */
+        position: absolute;
+        top: 235px;
+        left: 40px;
+    }
+
+    .nccn p {
+        font-size: 16px;
+        line-height: 22.4px;
+    }
+
+    .bannerSection .text {
+        width: 692px;
+        height: auto;
+        margin: 0;
+        position: absolute;
+        bottom: 16px;
+        left: 36px;
+    }
+}
