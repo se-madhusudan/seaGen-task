@@ -217,4 +217,10 @@
         font-size: 20px;
         line-height: 27px;
     }
+
+    .bannerSection .text {
+        width: 649px;
+        bottom: 18px;
+        left: 31px;
+    }
 }
