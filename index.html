@@ -113,7 +113,12 @@
     <!-- banner -->
      <main>
         <section class="bannerSection">
-            <img src="images/mobile-banner.png" alt="background image" class="heroImage">
+            <picture>
+                <source srcset="images/desktop-banner.png" media="(min-width: 1440px)">
+                <source srcset="images/laptop-banner.png" media="(min-width: 1024px)">
+                <source srcset="images/tab-banner.png" media="(min-width: 768px)">
+                <img src="images/mobile-banner.png" alt="background image" class="heroImage">
+              </picture>
 
             <h3>IN 2L+ HER2+ MBC</h3>
             <h2>RETHINK TREATMENT WITH THE <span>TUKYSA</span> REGIMEN<sup><small>*</small></sup></h2>
