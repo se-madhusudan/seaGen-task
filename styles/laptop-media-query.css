@@ -103,4 +103,10 @@
         left: 35px;
     }
 
+     /* --------------------- Proposed Mechanism Section ----------*/
+
+    .blockadeFlex {
+        height: 250px;
+    }
+
 }
